@@ -1,6 +1,8 @@
 # Astrotalk
 You have to just clone this this code in your desktop using github deskptop or use the command and open the the mysql workbench create data base (mydb) because I have that name only and run thi application ..All the end point are working properly If you have any doubt please contact me
 
+When you sign in suceesfully at that time you will get jwt  you  will need to pass that token  in post man in authorization because all the patient end point are secured unauthorized pass can not aceess patient end point
+ 
 I have build up the application so that User Can Sign up and Sign In and all the end point are secured  like adding  new patient ,discharging new patient ,fetch all the admitted patient I mean only the authorized person can play with all the end point 
 For NewUser you have to use this end point in your postman for signUp(http://localhost:8080/sample/signup)use POST for this endpoint  in your postman
 {
